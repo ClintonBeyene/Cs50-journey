@@ -1,0 +1,8 @@
+it's difficut to generalize ther characterization of audio auro by using only from 2018 100 songs
+but without considering the feedback of user. But we can make some characterize about their
+preffered Energy, tempo, valence, speechiness and danceability based on their 100 songs that
+are already listed.
+The better way of calculating this aura in my opinion is by using more sophisticated and machine learning models
+that can learn from the audio features and the feedback of users to generate dynamic and persoalized mood
+descriptors.
+

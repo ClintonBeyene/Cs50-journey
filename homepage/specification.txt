@@ -1,0 +1,17 @@
+My exercises for the Harvard University Introduction to Computer Science Course: CS50 Week 8 p-Homepage- HTML, CSS, JavaScript
+
+Homepage: A simple homepage using HTML, CSS, and JavaScript - including the following:
+
+At least 4 different .html pages with hyperlinks to navigate between them
+i used 4 different hyperlinks such are index.html, study.html, sport.html and community.html.
+At least 10 distinct HTML tags
+i used 10 html tags such are head, body, section, div, nav, ul, li,footer, img, video, a and header.
+At least 1 feature from bootstrap
+for fonting style i used bootstrap feature but i work more myself in my css.
+At least 1 stylesheet of my own creation
+i created styles.css and style my page from header to footer.
+At least 1 JavaScript feature of my own creation
+i used time.js to display time on site.
+Must work well on mobile devices as well as laptops & desktops
+my site works well in all device.
+i choose js time alert display to show in my site my user a real time.

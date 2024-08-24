@@ -1,0 +1,199 @@
+:root {
+    --homepage-neutral: #232946;
+    --homepage-white: #fffff0;
+    --homepage-illustrations: #121629;
+    --homepage-highlight: #eebbc3;
+    --homepage-blue: #b8c1ec;
+ }
+
+ html {
+     box-sizing: border-box;
+     font-size: 62.5%;
+     scroll-behavior: smooth;
+   }
+
+ * {
+     margin: 0;
+ }
+ body {
+     font-family: 'Noto Serif', sans-serif;
+     font-size: 2rem; /* 20px */
+     font-weight: 410;
+     line-height: 1.5;
+     color: var(--homepage-white);
+   }
+ h1,
+ h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 720;
+   text-align: center;
+ }
+
+ h1 {
+   font-size: 60px;
+   color: var(--homepage-white)
+ }
+
+ h2 {
+   font-size: 40pxrem;
+ }
+
+ ul {
+     list-style: none;
+   }
+
+   a {
+     text-decoration: none;
+     color: var(--homepage-white);
+   }
+
+   img {
+     display: block;
+     width: 100%;
+   }
+
+   .nav {
+     display: flex;
+     justify-content: flex-end;
+     position: fixed;
+     width: 100%;
+     background: var(--homepage-neutral);
+     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+     top: 0;
+     left: 0;
+   }
+
+   .nav-list {
+     display: flex;
+     margin-right: 2rem;
+   }
+
+   @media (max-width: 30em) {
+     .nav {
+       justify-content: center;
+     }
+
+     .nav-list {
+       margin: 0 0.5rem;
+     }
+   }
+
+   .nav-list a {
+     display: block;
+     font-size: 2.4rem;
+     padding: 2rem;
+   }
+
+   .nav-list a:hover {
+     background: var(--homepage-highlight);
+   }
+
+   .welcome-section {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 100vh;
+     background-color: #000;
+    background-image: linear-gradient(70deg, #232946 0%, #121629 100%);
+   }
+
+   .welcome-section > p {
+     font-size: 2.5rem;
+     font-weight: 250;
+     font-style: italic;
+     color: var(--homepage-blue);
+   }
+
+  .welcome-section2 > p {
+    font-size: 1.5rem;
+     font-weight: 250;
+     font-style: italic;
+     color: var(--homepage-white);
+  }
+
+  .sport-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--homepage-neutral);
+  }
+
+  .sport-grid > p {
+    font-size: 2.5rem;
+     font-weight: 250;
+     font-style: italic;
+     color: var(--homepage-blue);
+  }
+
+  .sport-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--homepage-white);
+  }
+
+  @media (max-width: 28.75em) {
+    .sport-section-header {
+      font-size: 4rem;
+    }
+  }
+
+  .sport-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+
+
+  .sport {
+    background: var(--main-gray);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+
+  .sport-image {
+    height: calc(100% - 6.8rem);
+    width: 80%;
+    object-fit: cover;
+  }
+
+  .sport-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+  }
+
+  .sport-title > p {
+    font-size: 1.5rem;
+     font-weight: 250;
+     font-style: italic;
+     color: var(--homepage-blue);
+  }
+
+  .sport-video {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+
+  }
+
+#time {
+     font-size: 1.0rem;
+     color: var(--homepage-blue)
+  }
+
+  footer {
+    font-weight: 250;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: var(--hompage-illustrations);
+    border-top: 3px solid var(--homepage-neutral);
+  }
+
+  footer > p {
+    margin: 2rem;
+  }

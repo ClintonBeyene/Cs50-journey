@@ -1,0 +1,26 @@
+sort1 uses: Bubble sort
+
+How do you know?:
+
+reversed50,000.txt --> 5.974
+sorted50,000.txt --> 1.562
+
+for sorted file of 50,000 numbers, sort 1 was the fastest in sorting them.
+
+sort2 uses: merge sort
+
+How do you know?:
+
+reversed50,000.txt --> 2.204
+
+for reversed file of 50,000 numbers, sort 2 was the fastest in sorting them compared with the sort1 and sort3 programs.
+
+sort3 uses: Selection sort
+
+How do you know?:
+
+reversed50,000.txt --> 5.688
+sorted50,000.txt --> 3.124
+
+compared to sort1 and sort2, sort3 is the slowest program on both sorting reversed 50,000 numbers and sorting sorted 50,000 numbers.
+
